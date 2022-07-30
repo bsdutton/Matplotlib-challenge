@@ -1,0 +1,111 @@
+### mouse_greatest DataFrame
+#### just ["Mouse ID", "Tumor Volume (mm3)", "Timepoint", "Drug Regimen"]
+
+#### [pandas.DataFrame.to_markdown](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_markdown.html)
+
+#### [Pandas DataFrame to Markdown](https://joelmccune.com/pandas-dataframe-to-markdown/)
+* pd.io.clipboards.to_clipboard(df.to_markdown(), excel=False)
+
+| Mouse ID   |   Tumor Volume (mm3) |   Timepoint | Drug Regimen   |
+|:-----------|---------------------:|------------:|:---------------|
+| l897       |              46.1547 |          10 | Capomulin      |
+| j119       |              48.1582 |          20 | Capomulin      |
+| j246       |              46.4084 |          10 | Capomulin      |
+| u364       |              47.2122 |          15 | Capomulin      |
+| g316       |              46.8092 |          25 | Capomulin      |
+| g288       |              46.304  |          10 | Capomulin      |
+| f966       |              45      |           0 | Capomulin      |
+| t565       |              46.749  |          10 | Capomulin      |
+| s710       |              45      |           0 | Capomulin      |
+| v923       |              45.7044 |           5 | Capomulin      |
+| w150       |              45      |           0 | Capomulin      |
+| s185       |              45      |           0 | Capomulin      |
+| i557       |              47.686  |          45 | Capomulin      |
+| w914       |              45.8937 |           5 | Capomulin      |
+| i738       |              45.5957 |           5 | Capomulin      |
+| r554       |              45.7817 |           5 | Capomulin      |
+| b742       |              45      |           0 | Capomulin      |
+| m957       |              46.4145 |          10 | Capomulin      |
+| y793       |              45      |           0 | Capomulin      |
+| b128       |              45.6513 |           5 | Capomulin      |
+| x401       |              45.4738 |           5 | Capomulin      |
+| r944       |              47.3734 |          15 | Capomulin      |
+| l509       |              48.0705 |          20 | Capomulin      |
+| m601       |              45      |           0 | Capomulin      |
+| r157       |              46.5392 |          15 | Capomulin      |
+| q483       |              64.1923 |          40 | Ceftamin       |
+| j296       |              61.849  |          45 | Ceftamin       |
+| l558       |              46.7845 |          10 | Ceftamin       |
+| k210       |              68.9232 |          45 | Ceftamin       |
+| l733       |              64.2998 |          45 | Ceftamin       |
+| l661       |              59.852  |          45 | Ceftamin       |
+| l471       |              67.7487 |          45 | Ceftamin       |
+| t573       |              45      |           0 | Ceftamin       |
+| l490       |              57.9184 |          30 | Ceftamin       |
+| h531       |              47.7847 |           5 | Ceftamin       |
+| u153       |              45      |           0 | Ceftamin       |
+| y865       |              64.7298 |          45 | Ceftamin       |
+| a275       |              62.9994 |          45 | Ceftamin       |
+| y769       |              68.5947 |          45 | Ceftamin       |
+| x822       |              61.3867 |          45 | Ceftamin       |
+| x581       |              64.6349 |          45 | Ceftamin       |
+| b447       |              45      |           0 | Ceftamin       |
+| b487       |              56.0577 |          25 | Ceftamin       |
+| u149       |              52.9253 |          25 | Ceftamin       |
+| x226       |              45      |           0 | Ceftamin       |
+| b759       |              55.7428 |          30 | Ceftamin       |
+| w151       |              67.5275 |          45 | Ceftamin       |
+| f436       |              48.7221 |          15 | Ceftamin       |
+| o287       |              59.7419 |          45 | Ceftamin       |
+| p438       |              61.4339 |          45 | Ceftamin       |
+| w193       |              50.0051 |          20 | Infubinol      |
+| s121       |              55.6507 |          25 | Infubinol      |
+| v766       |              51.5424 |          15 | Infubinol      |
+| v719       |              54.0486 |          20 | Infubinol      |
+| y163       |              67.6856 |          45 | Infubinol      |
+| v339       |              46.2501 |           5 | Infubinol      |
+| q132       |              54.6565 |          30 | Infubinol      |
+| w584       |              58.2684 |          30 | Infubinol      |
+| a203       |              67.9734 |          45 | Infubinol      |
+| o809       |              55.6294 |          35 | Infubinol      |
+| a251       |              65.5257 |          45 | Infubinol      |
+| a577       |              57.0319 |          30 | Infubinol      |
+| a685       |              66.0831 |          45 | Infubinol      |
+| c139       |              72.2267 |          45 | Infubinol      |
+| c326       |              45      |           0 | Infubinol      |
+| c895       |              60.9697 |          30 | Infubinol      |
+| e476       |              62.4354 |          45 | Infubinol      |
+| f345       |              60.9188 |          45 | Infubinol      |
+| o813       |              45.6993 |           5 | Infubinol      |
+| i386       |              67.2896 |          40 | Infubinol      |
+| z581       |              62.7545 |          45 | Infubinol      |
+| n671       |              60.1652 |          30 | Infubinol      |
+| k804       |              62.1173 |          35 | Infubinol      |
+| m756       |              47.0104 |           5 | Infubinol      |
+| k483       |              66.1969 |          45 | Infubinol      |
+| s508       |              45      |           0 | Ramicane       |
+| a411       |              45.4667 |           5 | Ramicane       |
+| a444       |              45      |           0 | Ramicane       |
+| y449       |              46.3781 |          10 | Ramicane       |
+| a520       |              45      |           0 | Ramicane       |
+| n364       |              45.5219 |           5 | Ramicane       |
+| a644       |              46.9109 |          15 | Ramicane       |
+| q597       |              45.7661 |           5 | Ramicane       |
+| q610       |              46.5854 |          20 | Ramicane       |
+| w678       |              45      |           0 | Ramicane       |
+| c458       |              45.7223 |           5 | Ramicane       |
+| c758       |              46.9409 |          15 | Ramicane       |
+| d251       |              45      |           0 | Ramicane       |
+| r811       |              45.6258 |           5 | Ramicane       |
+| e662       |              46.4091 |          10 | Ramicane       |
+| r921       |              45.5682 |           5 | Ramicane       |
+| z578       |              45      |           0 | Ramicane       |
+| i177       |              45      |           0 | Ramicane       |
+| u196       |              47.6228 |          30 | Ramicane       |
+| i334       |              45      |           0 | Ramicane       |
+| j913       |              45.2525 |          15 | Ramicane       |
+| j989       |              46.3438 |          10 | Ramicane       |
+| k403       |              45      |           0 | Ramicane       |
+| m546       |              45      |           0 | Ramicane       |
+| g791       |              45.8515 |           5 | Ramicane       |
+
