@@ -1,35 +1,33 @@
-### mouse_greatest DataFrame
-#### complete DataFrame - 100 rows X 8 columns
+mouse_greatest DataFrame with Timepoint
 
-
-
+#### DataFrame redone using Timepoint instead of Tumor Volume (mm3)
 
 | Mouse ID   | Drug Regimen   | Sex    |   Age_months |   Weight (g) |   Timepoint |   Metastatic Sites |   Tumor Volume (mm3) |
 |:-----------|:---------------|:-------|-------------:|-------------:|------------:|-------------------:|---------------------:|
-| l897       | Capomulin      | Male   |           17 |           19 |          10 |                  0 |              46.1547 |
-| j119       | Capomulin      | Female |            7 |           23 |          20 |                  1 |              48.1582 |
-| j246       | Capomulin      | Female |           21 |           21 |          10 |                  0 |              46.4084 |
-| u364       | Capomulin      | Male   |           18 |           17 |          15 |                  2 |              47.2122 |
-| g316       | Capomulin      | Female |           22 |           22 |          25 |                  1 |              46.8092 |
-| g288       | Capomulin      | Male   |            3 |           19 |          10 |                  1 |              46.304  |
-| f966       | Capomulin      | Male   |           16 |           17 |           0 |                  0 |              45      |
-| t565       | Capomulin      | Female |           20 |           17 |          10 |                  0 |              46.749  |
-| s710       | Capomulin      | Female |            1 |           23 |           0 |                  0 |              45      |
-| v923       | Capomulin      | Female |           19 |           21 |           5 |                  0 |              45.7044 |
-| w150       | Capomulin      | Male   |           23 |           23 |           0 |                  0 |              45      |
-| s185       | Capomulin      | Female |            3 |           17 |           0 |                  0 |              45      |
+| l897       | Capomulin      | Male   |           17 |           19 |          45 |                  1 |              38.8469 |
+| j119       | Capomulin      | Female |            7 |           23 |          45 |                  1 |              38.1252 |
+| j246       | Capomulin      | Female |           21 |           21 |          35 |                  1 |              38.7533 |
+| u364       | Capomulin      | Male   |           18 |           17 |          45 |                  3 |              31.0239 |
+| g316       | Capomulin      | Female |           22 |           22 |          45 |                  2 |              40.1592 |
+| g288       | Capomulin      | Male   |            3 |           19 |          45 |                  1 |              37.074  |
+| f966       | Capomulin      | Male   |           16 |           17 |          20 |                  0 |              30.486  |
+| t565       | Capomulin      | Female |           20 |           17 |          45 |                  0 |              34.4553 |
+| s710       | Capomulin      | Female |            1 |           23 |          45 |                  1 |              40.7286 |
+| v923       | Capomulin      | Female |           19 |           21 |          45 |                  2 |              40.6581 |
+| w150       | Capomulin      | Male   |           23 |           23 |          10 |                  0 |              39.9523 |
+| s185       | Capomulin      | Female |            3 |           17 |          45 |                  1 |              23.3436 |
 | i557       | Capomulin      | Female |            1 |           24 |          45 |                  1 |              47.686  |
-| w914       | Capomulin      | Male   |           24 |           21 |           5 |                  0 |              45.8937 |
-| i738       | Capomulin      | Female |           23 |           20 |           5 |                  0 |              45.5957 |
-| r554       | Capomulin      | Female |            8 |           17 |           5 |                  1 |              45.7817 |
-| b742       | Capomulin      | Male   |            7 |           21 |           0 |                  0 |              45      |
-| m957       | Capomulin      | Female |            3 |           19 |          10 |                  1 |              46.4145 |
-| y793       | Capomulin      | Male   |           17 |           17 |           0 |                  0 |              45      |
-| b128       | Capomulin      | Female |            9 |           22 |           5 |                  0 |              45.6513 |
-| x401       | Capomulin      | Female |           16 |           15 |           5 |                  0 |              45.4738 |
-| r944       | Capomulin      | Male   |           12 |           25 |          15 |                  0 |              47.3734 |
-| l509       | Capomulin      | Male   |           17 |           21 |          20 |                  2 |              48.0705 |
-| m601       | Capomulin      | Male   |           22 |           17 |           0 |                  0 |              45      |
+| w914       | Capomulin      | Male   |           24 |           21 |          45 |                  2 |              36.041  |
+| i738       | Capomulin      | Female |           23 |           20 |          45 |                  2 |              37.3118 |
+| r554       | Capomulin      | Female |            8 |           17 |          45 |                  3 |              32.3774 |
+| b742       | Capomulin      | Male   |            7 |           21 |          45 |                  0 |              38.9396 |
+| m957       | Capomulin      | Female |            3 |           19 |          45 |                  1 |              33.3291 |
+| y793       | Capomulin      | Male   |           17 |           17 |          45 |                  2 |              31.8962 |
+| b128       | Capomulin      | Female |            9 |           22 |          45 |                  2 |              38.9829 |
+| x401       | Capomulin      | Female |           16 |           15 |          45 |                  0 |              28.484  |
+| r944       | Capomulin      | Male   |           12 |           25 |          45 |                  2 |              41.5815 |
+| l509       | Capomulin      | Male   |           17 |           21 |          45 |                  3 |              41.483  |
+| m601       | Capomulin      | Male   |           22 |           17 |          45 |                  1 |              28.431  |
 | r157       | Capomulin      | Male   |           22 |           25 |          15 |                  0 |              46.5392 |
 | q483       | Ceftamin       | Male   |            6 |           26 |          40 |                  1 |              64.1923 |
 | j296       | Ceftamin       | Female |           24 |           30 |          45 |                  3 |              61.849  |
@@ -70,7 +68,7 @@
 | a577       | Infubinol      | Female |            6 |           25 |          30 |                  2 |              57.0319 |
 | a685       | Infubinol      | Male   |            8 |           30 |          45 |                  3 |              66.0831 |
 | c139       | Infubinol      | Male   |           11 |           28 |          45 |                  2 |              72.2267 |
-| c326       | Infubinol      | Female |           18 |           25 |           0 |                  0 |              45      |
+| c326       | Infubinol      | Female |           18 |           25 |           5 |                  0 |              36.3213 |
 | c895       | Infubinol      | Female |            7 |           29 |          30 |                  2 |              60.9697 |
 | e476       | Infubinol      | Male   |           23 |           26 |          45 |                  1 |              62.4354 |
 | f345       | Infubinol      | Male   |           23 |           26 |          45 |                  1 |              60.9188 |
@@ -81,28 +79,28 @@
 | k804       | Infubinol      | Female |           23 |           29 |          35 |                  2 |              62.1173 |
 | m756       | Infubinol      | Male   |           19 |           30 |           5 |                  1 |              47.0104 |
 | k483       | Infubinol      | Female |           20 |           30 |          45 |                  3 |              66.1969 |
-| s508       | Ramicane       | Male   |            1 |           17 |           0 |                  0 |              45      |
-| a411       | Ramicane       | Male   |            3 |           22 |           5 |                  0 |              45.4667 |
-| a444       | Ramicane       | Female |           10 |           25 |           0 |                  0 |              45      |
-| y449       | Ramicane       | Male   |           19 |           24 |          10 |                  0 |              46.3781 |
-| a520       | Ramicane       | Male   |           13 |           21 |           0 |                  0 |              45      |
-| n364       | Ramicane       | Male   |            4 |           17 |           5 |                  0 |              45.5219 |
-| a644       | Ramicane       | Female |            7 |           17 |          15 |                  0 |              46.9109 |
-| q597       | Ramicane       | Male   |           20 |           25 |           5 |                  0 |              45.7661 |
-| q610       | Ramicane       | Female |           18 |           21 |          20 |                  0 |              46.5854 |
-| w678       | Ramicane       | Female |            5 |           24 |           0 |                  0 |              45      |
-| c458       | Ramicane       | Female |           23 |           20 |           5 |                  0 |              45.7223 |
-| c758       | Ramicane       | Male   |            9 |           17 |          15 |                  1 |              46.9409 |
-| d251       | Ramicane       | Female |            8 |           19 |           0 |                  0 |              45      |
-| r811       | Ramicane       | Male   |            9 |           19 |           5 |                  0 |              45.6258 |
-| e662       | Ramicane       | Male   |            8 |           24 |          10 |                  0 |              46.4091 |
-| r921       | Ramicane       | Female |            5 |           25 |           5 |                  0 |              45.5682 |
-| z578       | Ramicane       | Male   |           11 |           16 |           0 |                  0 |              45      |
-| i177       | Ramicane       | Male   |           10 |           18 |           0 |                  0 |              45      |
-| u196       | Ramicane       | Male   |           18 |           25 |          30 |                  2 |              47.6228 |
-| i334       | Ramicane       | Female |            8 |           20 |           0 |                  0 |              45      |
-| j913       | Ramicane       | Female |            4 |           17 |          15 |                  0 |              45.2525 |
-| j989       | Ramicane       | Male   |            8 |           19 |          10 |                  1 |              46.3438 |
-| k403       | Ramicane       | Male   |           21 |           16 |           0 |                  0 |              45      |
-| m546       | Ramicane       | Male   |           18 |           16 |           0 |                  0 |              45      |
-| g791       | Ramicane       | Male   |           11 |           16 |           5 |                  0 |              45.8515 |
+| s508       | Ramicane       | Male   |            1 |           17 |          45 |                  0 |              30.2762 |
+| a411       | Ramicane       | Male   |            3 |           22 |          45 |                  1 |              38.4076 |
+| a444       | Ramicane       | Female |           10 |           25 |          45 |                  0 |              43.0475 |
+| y449       | Ramicane       | Male   |           19 |           24 |          15 |                  0 |              44.1835 |
+| a520       | Ramicane       | Male   |           13 |           21 |          45 |                  1 |              38.8104 |
+| n364       | Ramicane       | Male   |            4 |           17 |          45 |                  1 |              31.0953 |
+| a644       | Ramicane       | Female |            7 |           17 |          45 |                  1 |              32.9785 |
+| q597       | Ramicane       | Male   |           20 |           25 |          45 |                  2 |              45.2209 |
+| q610       | Ramicane       | Female |           18 |           21 |          35 |                  2 |              36.5617 |
+| w678       | Ramicane       | Female |            5 |           24 |           5 |                  0 |              43.1664 |
+| c458       | Ramicane       | Female |           23 |           20 |          30 |                  2 |              38.342  |
+| c758       | Ramicane       | Male   |            9 |           17 |          45 |                  1 |              33.3977 |
+| d251       | Ramicane       | Female |            8 |           19 |          45 |                  2 |              37.3112 |
+| r811       | Ramicane       | Male   |            9 |           19 |          45 |                  1 |              37.2257 |
+| e662       | Ramicane       | Male   |            8 |           24 |          45 |                  2 |              40.659  |
+| r921       | Ramicane       | Female |            5 |           25 |          30 |                  1 |              43.4194 |
+| z578       | Ramicane       | Male   |           11 |           16 |          45 |                  0 |              30.6387 |
+| i177       | Ramicane       | Male   |           10 |           18 |          45 |                  3 |              33.5624 |
+| u196       | Ramicane       | Male   |           18 |           25 |          45 |                  3 |              40.6677 |
+| i334       | Ramicane       | Female |            8 |           20 |          45 |                  2 |              36.3745 |
+| j913       | Ramicane       | Female |            4 |           17 |          45 |                  1 |              31.5605 |
+| j989       | Ramicane       | Male   |            8 |           19 |          45 |                  1 |              36.1349 |
+| k403       | Ramicane       | Male   |           21 |           16 |          45 |                  1 |              22.0501 |
+| m546       | Ramicane       | Male   |           18 |           16 |          45 |                  1 |              30.5646 |
+| g791       | Ramicane       | Male   |           11 |           16 |          45 |                  1 |              29.1285 |
